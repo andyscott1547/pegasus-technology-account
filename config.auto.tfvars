@@ -3,7 +3,7 @@
 region = "eu-west-1"
 
 tags = {
-  "Project"    = "terraform-test"
-  "Owner"      = "terraform-test"
-  "Billing_ID" = "terraform-test"
+  "Project"    = "PegasusTechnlogy"
+  "Owner"      = "PegasusTechnology"
+  "Billing_ID" = "000"
 }

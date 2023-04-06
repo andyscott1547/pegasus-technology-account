@@ -9,6 +9,6 @@ output:
   file: ../../README.md
   mode: inject
   template: |-
-    <!-- BEGIN_EXAMPLE_DOCS -->
+    <!-- BEGIN_CONFIG_DOCS -->
     {{ .Content }}
-    <!-- END_EXAMPLE_DOCS -->
+    <!-- END_CONFIG_DOCS -->

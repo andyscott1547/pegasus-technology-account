@@ -1,10 +1,10 @@
 # backend
 
-# terraform {
-#   backend "s3" {
-#     bucket         = "<bucket_name>"
-#     key            = "<state_file_name>"
-#     region         = "<region_name>"
-#     dynamodb_table = "<dynamodb_name>"
-#   }
-# }
+terraform {
+  backend "s3" {
+    bucket         = "502101718834-eu-west-1-tf-state"
+    key            = "account"
+    region         = "eu-west-1"
+    dynamodb_table = "502101718834-eu-west-1-tf-state"
+  }
+}
